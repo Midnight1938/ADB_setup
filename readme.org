@@ -1,0 +1,21 @@
+#+title: Setup Phone with ADB
+#+author: Skshm
+#  LocalWords:  ADB
+
+* Initialising
+
+- [ ] Ensure you have ADB on system, and debugging on phone
+- [ ] Ensure you either dont have the same apps, or have unwanted apps in the ~Apps~ folder.
+
+** Basic step
+- Ensure you have developer mode on android. And have turned on debugging.
+- Run ~adb devices~ with phone connected and in file transfer mode, to initiate adb connection.
+  Allow connection with the prompt on your device
+* Remover.sh
+This removes all pre-installed applications and telementry in Mi, LG and Motorola devices.
+Chrome will be removed and later be replaced by Bromite.
+* Installer.sh
+This installs all the Apps currently in the ~Apps~ folder. You may remove what you dont want
+Adding new apps is not possible at the moment.
+
+- Dont forget to turn off debugging on your device after everything.
